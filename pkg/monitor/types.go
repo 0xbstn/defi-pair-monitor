@@ -2,7 +2,7 @@ package monitor
 
 type Factory struct {
 	Name           string
-	FactoryAddress [32]byte
+	FactoryAddress [20]byte
 }
 
 type Monitor struct {
